@@ -64,14 +64,8 @@ Each directory (`B1`, `B2`, `F`, `R1`, `R2`, `W1`, `W2`) contains a different sy
 
 To understand the specifics of each implementation, refer to the `design.cpp`, `testbench.cpp`, and `note.txt` files within each directory.
 
-## Contributing
+## Contributors
+Sujal yatin , Sushant Naik , Vijith M ,Sharn L
 
-(If you wish to accept contributions, add guidelines here.)
 
-## License
 
-(Specify the license under which the code is distributed.)
-
-## Acknowledgements
-
-(Optional: Acknowledge any contributors or resources.)
