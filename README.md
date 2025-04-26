@@ -5,13 +5,21 @@ This repository contains the design and implementation of a systolic array for c
 ## Contents
 
 * **B1/**: This directory contains the design and testbench files (`design.cpp`, `testbench.cpp`) for a basic systolic array, along with a script to run the simulation (`run.sh`) and a note file (`note.txt`)[cite: 1, 2, 3, 4].
+  
 * **B2/**: Similar to B1, this directory contains the design, testbench, run script, and note for another systolic array implementation[cite: 5, 6, 7, 8].
+  
 * **F/**:  This directory includes design and testbench files (`design.cpp`, `testbench.cpp`) for a systolic array with an adder module, a run script (`run.sh`), and a note file (`note.txt`)[cite: 9, 10, 11, 12].
+  
 * **R1/**: Contains design and testbench files (`design.cpp`, `testbench.cpp`) for a systolic array with registers, along with a run script (`run.sh`) and a note (`note.txt`)[cite: 13, 14].
+  
 * **R2/**:  This directory includes design and testbench files (`design.cpp`, `testbench.cpp`) for another systolic array design with registers, a run script (`run.sh`), and a note (`note.txt`). The `design.cpp` file in the main directory (`/design.cpp`) also corresponds to this R2 design.
+  
 * **W1/**:  Contains design and testbench files (`design.cpp`, `testbench.cpp`) for a systolic array where inputs are provided every two cycles, along with a run script (`run.sh`) and a note (`note.txt`).
+  
 * **W2/**:  Similar to W1, this directory contains design and testbench files (`design.cpp`, `testbench.cpp`) for a systolic array with input delays, a run script (`run.sh`), and a note (`note.txt`).
+  
 * **design.cpp**: Contains the implementation of the R2 systolic array design.
+  
 * **testbench.cpp**: Contains a testbench for verifying the R2 systolic array design with convolution operations. Note that there is also a `testbhench.cpp` file.
 
 ## Recent Activity
