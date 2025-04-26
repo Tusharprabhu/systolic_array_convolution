@@ -24,7 +24,7 @@ The codebase was recently refactored to improve readability and maintainability.
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your_username/systolic_array_convolution.git](https://github.com/your_username/systolic_array_convolution.git)
+    git clone [https://github.com/Tusharprabhu/systolic_array_convolution.git]
     cd systolic_array_convolution
     ```
 2.  (Mention any dependencies, e.g., compiler requirements)
