@@ -20,7 +20,7 @@ This repository contains the design and implementation of a systolic array for c
   
 * **design.cpp**: Contains the implementation of the R2 systolic array design.
   
-* **testbench.cpp**: Contains a testbench for verifying the R2 systolic array design with convolution operations. Note that there is also a `testbhench.cpp` file.
+* **testbench.cpp**: Contains a testbench for verifying the R2 systolic array design with convolution operations.
 
 ## Recent Activity
 
