@@ -1,125 +1,368 @@
 $date
-     Mar 30, 2025       07:39:14
+	Sun Jun 22 12:35:48 2025
 $end
-
 $version
- SystemC 2.3.3-Accellera --- May 23 2020 14:33:56
+	Icarus Verilog
 $end
-
 $timescale
-     1 ps
+	1ps
 $end
-
-$scope module SystemC $end
-$var wire    1  aaaaa  clk       $end
-$var wire    1  aaaab  rst       $end
-$var wire   32  aaaac  x_in [31:0]  $end
-$var wire   32  aaaad  y_out [31:0]  $end
+$scope module testbench $end
+$var wire 32 ! y_out [31:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$var reg 32 $ x_in [31:0] $end
+$var reg 32 % y_in [31:0] $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 32 & x_in [31:0] $end
+$var wire 32 ' y_in [31:0] $end
+$var wire 32 ( y_sig2 [31:0] $end
+$var wire 32 ) y_sig1 [31:0] $end
+$var wire 32 * y_out [31:0] $end
+$scope module pe1 $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 32 + x_in [31:0] $end
+$var wire 32 , y_in [31:0] $end
+$var parameter 32 - WEIGHT $end
+$var reg 32 . mult_result_reg [31:0] $end
+$var reg 32 / sum [31:0] $end
+$var reg 32 0 x [31:0] $end
+$var reg 32 1 y_out [31:0] $end
+$var reg 32 2 y_reg [31:0] $end
 $upscope $end
-$enddefinitions  $end
-
-$comment
-All initial values are dumped below at time 0 sec = 0 timescale units.
+$scope module pe2 $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 32 3 x_in [31:0] $end
+$var wire 32 4 y_in [31:0] $end
+$var parameter 32 5 WEIGHT $end
+$var reg 32 6 mult_result_reg [31:0] $end
+$var reg 32 7 sum [31:0] $end
+$var reg 32 8 x [31:0] $end
+$var reg 32 9 y_out [31:0] $end
+$var reg 32 : y_reg [31:0] $end
+$upscope $end
+$scope module pe3 $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 32 ; x_in [31:0] $end
+$var wire 32 < y_in [31:0] $end
+$var parameter 32 = WEIGHT $end
+$var reg 32 > mult_result_reg [31:0] $end
+$var reg 32 ? sum [31:0] $end
+$var reg 32 @ x [31:0] $end
+$var reg 32 A y_out [31:0] $end
+$var reg 32 B y_reg [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 =
+b10 5
+b1 -
 $end
-
+#0
 $dumpvars
-0aaaaa
-1aaaab
-b0 aaaac
-b0 aaaad
+b0 B
+b0 A
+bx @
+bx ?
+b0 >
+b0 <
+b0 ;
+b0 :
+b0 9
+bx 8
+bx 7
+b0 6
+b0 4
+b0 3
+b0 2
+b0 1
+bx 0
+bx /
+b0 .
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+1#
+0"
+b0 !
 $end
-
 #5000
-1aaaaa
-
+1"
 #10000
-0aaaaa
-
+0"
 #15000
-1aaaaa
-0aaaab
-b1 aaaac
-b11 aaaad
-
+bx )
+bx 1
+bx 4
+b0 /
+bx .
+b1 0
+bx (
+bx 9
+bx <
+b0 7
+bx 6
+b1 8
+bx !
+bx *
+bx A
+b0 ?
+bx >
+b1 @
+1"
+b1 $
+b1 &
+b1 +
+b1 3
+b1 ;
+0#
 #20000
-0aaaaa
-
+0"
 #25000
-1aaaaa
-b10 aaaac
-b1000 aaaad
-
+b0 !
+b0 *
+b0 A
+bx ?
+bx B
+b11 >
+b10 @
+b0 (
+b0 9
+b0 <
+bx 7
+bx :
+b10 6
+b10 8
+b0 )
+b0 1
+b0 4
+bx /
+b1 .
+b10 0
+1"
+b10 $
+b10 &
+b10 +
+b10 3
+b10 ;
 #30000
-0aaaaa
-
+0"
 #35000
-1aaaaa
-b11 aaaac
-b1110 aaaad
-
+bx )
+bx 1
+bx 4
+b1 /
+b10 .
+b11 0
+bx (
+bx 9
+bx <
+b0 :
+b100 6
+b11 8
+bx !
+bx *
+bx A
+b0 B
+b110 >
+b11 @
+1"
+b11 $
+b11 &
+b11 +
+b11 3
+b11 ;
 #40000
-0aaaaa
-
+0"
 #45000
-1aaaaa
-b100 aaaac
-b10100 aaaad
-
+b110 ?
+bx B
+b1001 >
+b100 @
+b100 7
+bx :
+b110 6
+b100 8
+b1 )
+b1 1
+b1 4
+b10 /
+b11 .
+b100 0
+1"
+b100 $
+b100 &
+b100 +
+b100 3
+b100 ;
 #50000
-0aaaaa
-
+0"
 #55000
-1aaaaa
-b101 aaaac
-b11010 aaaad
-
+b10 )
+b10 1
+b10 4
+b11 /
+b100 .
+b101 0
+b100 (
+b100 9
+b100 <
+bx 7
+b1 :
+b1000 6
+b101 8
+b110 !
+b110 *
+b110 A
+bx ?
+b1100 >
+b101 @
+1"
+b101 $
+b101 &
+b101 +
+b101 3
+b101 ;
 #60000
-0aaaaa
-
+0"
 #65000
-1aaaaa
-b0 aaaac
-b1110 aaaad
-
+bx !
+bx *
+bx A
+b100 B
+b1111 >
+b0 @
+bx (
+bx 9
+bx <
+b1001 7
+b10 :
+b1010 6
+b0 8
+b11 )
+b11 1
+b11 4
+b100 /
+b101 .
+b0 0
+1"
+b0 $
+b0 &
+b0 +
+b0 3
+b0 ;
 #70000
-0aaaaa
-
+0"
 #75000
-1aaaaa
-b101 aaaad
-
+b100 )
+b100 1
+b100 4
+b101 /
+b0 .
+b1001 (
+b1001 9
+b1001 <
+b1100 7
+b11 :
+b0 6
+b10011 ?
+bx B
+b0 >
+1"
 #80000
-0aaaaa
-
+0"
 #85000
-1aaaaa
-b0 aaaad
-
+b10011 !
+b10011 *
+b10011 A
+bx ?
+b1001 B
+b1100 (
+b1100 9
+b1100 <
+b11 7
+b100 :
+b101 )
+b101 1
+b101 4
+b0 /
+1"
 #90000
-0aaaaa
-
+0"
 #95000
-1aaaaa
-
+b0 )
+b0 1
+b0 4
+b11 (
+b11 9
+b11 <
+b100 7
+b101 :
+bx !
+bx *
+bx A
+b1001 ?
+b1100 B
+1"
 #100000
-0aaaaa
-
+0"
 #105000
-1aaaaa
-
+b1001 !
+b1001 *
+b1001 A
+b1100 ?
+b11 B
+b100 (
+b100 9
+b100 <
+b101 7
+b0 :
+1"
 #110000
-0aaaaa
-
+0"
 #115000
-1aaaaa
-
+b101 (
+b101 9
+b101 <
+b0 7
+b1100 !
+b1100 *
+b1100 A
+b11 ?
+b100 B
+1"
 #120000
-0aaaaa
-
+0"
 #125000
-1aaaaa
-
+b11 !
+b11 *
+b11 A
+b100 ?
+b101 B
+b0 (
+b0 9
+b0 <
+1"
 #130000
-0aaaaa
-
+0"
 #135000
+b100 !
+b100 *
+b100 A
+b101 ?
+b0 B
+1"
